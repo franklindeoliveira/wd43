@@ -82,7 +82,7 @@
             </div>
         </div>
 		<?php include("rodape.php"); ?>
-		<script src="js/jquery.js"></script>
 		<script src="js/produto.js"></script>
+		<script src="js/jquery.js"></script>
 	</body>
 </html>

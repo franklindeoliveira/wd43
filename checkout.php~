@@ -157,5 +157,9 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
 	<script src="js/total.js"></script>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
 </body>
 </html>
