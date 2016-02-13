@@ -46,12 +46,15 @@ header {
 	position: relative;
 }
 
+.menu-departamentos {
+    margin-top: 10px;
+}
+
 .busca,
 .menu-departamentos {
 	background-color: #dcdcdc;
 	font-weight: bold;
 	text-transform: uppercase;
-
 	margin-right: 10px;
 	width: 230px;	
 }
@@ -116,7 +119,7 @@ header {
 	width: 140px;
 	margin: 2px;
 	padding-bottom: 10px;
-	transition: 0.7s easy-out;
+	transition: 0.7s ease-out;
 }
 
 .painel li:nth-child(2n):hover {
@@ -181,7 +184,7 @@ header {
 }
 
 .menu-departamentos li li a:before {
-	content: '\272A';
+	content: '- ';
 	padding-right: 3px;
 }
 
@@ -191,7 +194,8 @@ header {
 }
 
 footer {
-	
+	background-image: url(../img/fundo-rodape.png);
+    clear: both;
 }
 
 .social a {
@@ -201,5 +205,49 @@ footer {
 
 	/* image replacement */
 	display: block;
-	text-indent: -9999;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+
+
+.social a[href*="google.com"] {
+    background-image: url(../img/googleplus.png);
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.social li {
+    float: left;
+    margin-left: 23px;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.painel h2 {
+	font-family: 'Bad Script', sans-serif;
 }
